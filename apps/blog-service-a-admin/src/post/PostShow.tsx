@@ -36,6 +36,7 @@ export const PostShow = (props: ShowProps): React.ReactElement => {
         <TextField label="postAuthor" source="postAuthor" />
         <TextField label="postCreatedAt" source="postCreatedAt" />
         <TextField label="publishedAt" source="publishedAt" />
+        <TextField label="slug" source="slug" />
         <TextField label="title" source="title" />
         <DateField source="updatedAt" label="Updated At" />
         <ReferenceField label="User" source="user.id" reference="User">

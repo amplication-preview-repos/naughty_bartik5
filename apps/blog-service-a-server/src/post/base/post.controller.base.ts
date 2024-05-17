@@ -65,6 +65,7 @@ export class PostControllerBase {
         postAuthor: true,
         postCreatedAt: true,
         publishedAt: true,
+        slug: true,
         title: true,
         updatedAt: true,
 
@@ -102,6 +103,7 @@ export class PostControllerBase {
         postAuthor: true,
         postCreatedAt: true,
         publishedAt: true,
+        slug: true,
         title: true,
         updatedAt: true,
 
@@ -140,6 +142,7 @@ export class PostControllerBase {
         postAuthor: true,
         postCreatedAt: true,
         publishedAt: true,
+        slug: true,
         title: true,
         updatedAt: true,
 
@@ -201,6 +204,7 @@ export class PostControllerBase {
           postAuthor: true,
           postCreatedAt: true,
           publishedAt: true,
+          slug: true,
           title: true,
           updatedAt: true,
 
@@ -248,6 +252,7 @@ export class PostControllerBase {
           postAuthor: true,
           postCreatedAt: true,
           publishedAt: true,
+          slug: true,
           title: true,
           updatedAt: true,
 

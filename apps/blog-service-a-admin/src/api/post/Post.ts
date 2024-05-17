@@ -15,6 +15,7 @@ export type Post = {
   postAuthor: string | null;
   postCreatedAt: Date | null;
   publishedAt: Date | null;
+  slug: string | null;
   title: string | null;
   updatedAt: Date;
   user?: User | null;

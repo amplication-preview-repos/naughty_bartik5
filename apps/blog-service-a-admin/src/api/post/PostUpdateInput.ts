@@ -13,6 +13,7 @@ export type PostUpdateInput = {
   postAuthor?: string | null;
   postCreatedAt?: Date | null;
   publishedAt?: Date | null;
+  slug?: string | null;
   title?: string | null;
   user?: UserWhereUniqueInput | null;
 };

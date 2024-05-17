@@ -28,6 +28,7 @@ const CREATE_INPUT = {
   postAuthor: "examplePostAuthor",
   postCreatedAt: new Date(),
   publishedAt: new Date(),
+  slug: "exampleSlug",
   title: "exampleTitle",
   updatedAt: new Date(),
 };
@@ -42,6 +43,7 @@ const CREATE_RESULT = {
   postAuthor: "examplePostAuthor",
   postCreatedAt: new Date(),
   publishedAt: new Date(),
+  slug: "exampleSlug",
   title: "exampleTitle",
   updatedAt: new Date(),
 };
@@ -57,6 +59,7 @@ const FIND_MANY_RESULT = [
     postAuthor: "examplePostAuthor",
     postCreatedAt: new Date(),
     publishedAt: new Date(),
+    slug: "exampleSlug",
     title: "exampleTitle",
     updatedAt: new Date(),
   },
@@ -72,6 +75,7 @@ const FIND_ONE_RESULT = {
   postAuthor: "examplePostAuthor",
   postCreatedAt: new Date(),
   publishedAt: new Date(),
+  slug: "exampleSlug",
   title: "exampleTitle",
   updatedAt: new Date(),
 };

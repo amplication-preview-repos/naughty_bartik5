@@ -17,6 +17,7 @@ export type PostWhereInput = {
   postAuthor?: StringNullableFilter;
   postCreatedAt?: DateTimeNullableFilter;
   publishedAt?: DateTimeNullableFilter;
+  slug?: StringNullableFilter;
   title?: StringNullableFilter;
   user?: UserWhereUniqueInput;
 };

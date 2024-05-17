@@ -43,6 +43,7 @@ export const PostEdit = (props: EditProps): React.ReactElement => {
         <TextInput label="postAuthor" source="postAuthor" />
         <DateTimeInput label="postCreatedAt" source="postCreatedAt" />
         <DateTimeInput label="publishedAt" source="publishedAt" />
+        <TextInput label="slug" source="slug" />
         <TextInput label="title" source="title" />
         <ReferenceInput source="user.id" reference="User" label="User">
           <SelectInput optionText={UserTitle} />

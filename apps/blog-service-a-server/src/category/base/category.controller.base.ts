@@ -164,6 +164,7 @@ export class CategoryControllerBase {
         postAuthor: true,
         postCreatedAt: true,
         publishedAt: true,
+        slug: true,
         title: true,
         updatedAt: true,
 

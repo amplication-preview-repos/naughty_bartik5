@@ -12,6 +12,7 @@ export type PostOrderByInput = {
   postAuthor?: SortOrder;
   postCreatedAt?: SortOrder;
   publishedAt?: SortOrder;
+  slug?: SortOrder;
   title?: SortOrder;
   updatedAt?: SortOrder;
   userId?: SortOrder;
